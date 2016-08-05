@@ -182,7 +182,7 @@ public class Driver {
 
 			Teachnum = input.nextInt();
 
-			if (Teachnum > studentList.size() - 1 || CourseNum > courseList.size() - 1) {
+			if (Teachnum > teacherList.size() - 1 || CourseNum > courseList.size() - 1) {
 
 				System.out.println("==================================================");
 				System.out.println("       ERROR: Invalid Index Inputted (lol)");
